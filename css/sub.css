@@ -11,10 +11,10 @@ SUMMARY :
 
 /* page head */
 
-.intro {width:100%;height:200px;border-bottom:1px solid #e8e8e8;background:url(../img/common/visual_1.png) no-repeat center top}
-.intro.bg02 {background:url(../img/common/visual_2.png) no-repeat center top}
-.intro.bg03 {background:url(../img/common/visual_3.png) no-repeat center top}
-.intro.bg04 {background:url(../img/common/visual_4.png) no-repeat center top}
+.intro {width:100%;height:200px;border-bottom:1px solid #e8e8e8;background:url(../img/common/visual_1.jpg) no-repeat center center}
+.intro.bg02 {background:url(../img/common/visual_2.jpg) no-repeat center center}
+.intro.bg03 {background:url(../img/common/visual_3.jpg) no-repeat center center}
+.intro.bg04 {background:url(../img/common/visual_4.jpg) no-repeat center center}
 
 .intro .inner {display:table;width:1200px;height:200px;margin:0 auto;font-size:12px}
 .intro .inner .cell {display:table-cell;vertical-align:middle}
