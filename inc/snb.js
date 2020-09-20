@@ -14,7 +14,7 @@ function snb(cate, snb, chk) {
 	str += '	<h2 class="snb_tit"><span>' + uniq[cate] + '</span></h2>';
 	str += '	<ul class="snb_nav">';
 
-	if ( cate == 'crops' ) {
+	if (cate == 'crops') {
 
 		str += '	<li><a href="greeting.html">인사말</a></li>';
 		str += '	<li><a href="intro.html">농식품 직판장 소개</a></li>';
@@ -22,14 +22,14 @@ function snb(cate, snb, chk) {
 
 	}
 
-	if ( cate == 'local' ) {
+	if (cate == 'local') {
 
 		str += '	<li><a href="majorbiz.html">주요사업</a></li>';
 		str += '	<li><a href="product.html">제품소개</a></li>';
 
 	}
 	
-	if ( cate == 'notify' ) {
+	if (cate == 'notify') {
 
 		str += '	<li><a href="news_list.html">농가소식</a></li>';
 		str += '	<li><a href="notice_list.html">공지사항</a></li>';	
@@ -38,7 +38,7 @@ function snb(cate, snb, chk) {
 
 	}
 
-	if ( cate == 'news' ) {
+	if (cate == 'news') {
 
 		str += '	<li><a href="tour.html">주변 관광지</a></li>';
 		str += '	<li><a href="faq.html">자주하는 질문</a></li>';

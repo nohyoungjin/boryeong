@@ -40,7 +40,7 @@ SUMMARY :
 .bod_head .search .cell:last-child {width:67px;padding-right:0}
 
 .bod_head select {width:100% !important;height:36px}
-.bod_head input {width:100%;height:36px;padding:0 5px;font-size:11pt;color:#000;box-sizing:border-box}
+.bod_head input {width:100%;height:36px;padding:0 5px;font-size:11pt;color:#000}
 
 .btn {display:inline-block;padding:0 20px;border:1px solid #434241;background-color:#434241;color:#fff;white-space:nowrap;cursor:pointer}
 .btn_medium {width:auto;height:36px;font-size:11pt;line-height:36px}
@@ -120,7 +120,8 @@ SUMMARY :
 .bbs_basic .post_item {position:relative;padding:30px 0 25px;border-bottom:1px solid #d2d2d2}
 .bbs_basic .post_item a {display:block}
 .bbs_basic .post_item:last-child {border-bottom:1px solid #aaa}
-.col_xs {float:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+
+.col_xs {float:left}
 
 .bbs_basic .post_item .thum {width:28%;text-align:center}
 .bbs_basic .post_item .thum img {border:1px solid #ececec}
@@ -136,7 +137,7 @@ SUMMARY :
 
 .bbs_basic .post_item .link span {font-size:30px;font-weight:700;color:#ff6002}
 
-.btn_view {display:inline-block !important;position:absolute;bottom:45px;right:20px;width:70px !important;height:20px;padding:7px;border:1px solid #6aa73c;background-color:#71af42;font-size:15px;text-align:center;color:#fff;line-height:20px}
+.btn_view {display:inline-block !important;position:absolute;bottom:45px;right:20px;width:80px !important;padding:7px;border:1px solid #6aa73c;background-color:#71af42;font-size:15px;text-align:center;color:#fff;line-height:20px}
 
 /* farm list */
 
@@ -180,8 +181,8 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 .bbs_view {overflow:hidden;position:relative;margin:60px 0 0;border-top:2px solid #71af42}
 .bbs_view > ul {overflow:hidden}
 .bbs_view > ul > li {float:left;border-bottom:1px solid #ddd;font-size:14px}
-.bbs_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:16px 0;border-right:1px solid #ddd;background-color:#fbfbfb;color:#333;text-align:center;line-height:24px;box-sizing:border-box}
-.bbs_view > ul > li > div {float:right;min-height:24px;padding:16px 0 16px 20px;text-align:left;vertical-align:middle;line-height:24px;box-sizing:border-box}
+.bbs_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:16px 0;border-right:1px solid #ddd;background-color:#fbfbfb;color:#333;text-align:center;line-height:24px}
+.bbs_view > ul > li > div {float:right;min-height:24px;padding:16px 0 16px 20px;text-align:left;vertical-align:middle;line-height:24px}
 
 .bbs_view > ul > li.data_item {width:100%}
 .bbs_view > ul > li.data_item > strong {width:13.75%;border-left:0}
@@ -217,9 +218,9 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 .farm_view {overflow:hidden;border-top:1px solid #ddd}
 .farm_view > ul {overflow:hidden}
 .farm_view > ul > li {float:left;border-bottom:1px solid #ddd;font-size:14px}
-.farm_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:10px 0 10px 25px;color:#333;text-align:left;line-height:24px;box-sizing:border-box}
+.farm_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:10px 0 10px 25px;color:#333;text-align:left;line-height:24px}
 .farm_view > ul > li > strong:after {content:"";display:block;position: absolute;top:20px;left:10px;width:3px;height:3px;background-color:#71af40}
-.farm_view > ul > li > div {float:right;min-height:24px;padding:10px 0 10px 20px;text-align:left;vertical-align:middle;line-height:24px;box-sizing:border-box}
+.farm_view > ul > li > div {float:right;min-height:24px;padding:10px 0 10px 20px;text-align:left;vertical-align:middle;line-height:24px}
 
 .farm_view .cont {padding:45px 20px;border-bottom:1px solid #aaa;font-size:15px;line-height:170%;white-space:pre-line}
 
@@ -390,7 +391,7 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 	/* farm list */
 
 	.lst_news li + li {padding-top:50px}
-	.lst_news li .img {float:none;width:100%;height:inherit;margin:0;box-sizing:border-box}
+	.lst_news li .img {float:none;width:100%;height:inherit;margin:0}
 	
 	.desc .txt br {display:none}
 
