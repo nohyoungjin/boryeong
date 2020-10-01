@@ -107,12 +107,12 @@ SUMMARY :
 .page .tab {overflow:hidden;width:100%;margin:20px 0} 
 .page .tab:after {display:block;clear:both;content:''}
 
-.page .tab li {float:left;width:16.66%;margin-left:-1px} 
-.page .tab li:first-child {margin-left:0} 
-.page .tab li a {display:block;height:40px;border:1px solid #d6d6d6;border-bottom:1px solid #a0a0a0;font-size:15px;color:#000;text-align:center;line-height:40px} 
+.page .tab li {float:left;width:16.66%}
+.page .tab li a {display:block;height:40px;border:1px solid #dbdbdb;background:#f8f8f8;font-size:15px;color:#000;text-align:center;line-height:40px} 
+.page .tab li:not(:first-child) a {margin:0 -1px}
 
 .page .tab li.on a, 
-.tab li a:hover {background-color:#a0a0a0;color:#fff;text-decoration:none}
+.tab li a:hover {position:relative;z-index:2;border:1px solid #000;background-color:#fff;color:#081b50}
 
 .bbs_basic {margin:30px 0 0}
 .bbs_basic .post_item:after {content:'';display:block;clear:both} 
@@ -297,18 +297,24 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 
 	/* product list */
 
-	.page .tab {position:relative;border:1px solid #d6d6d6;border-width:1px 0 0 0;background:#fff url(../img/local/bg_tabLine.png) repeat-x left bottom} 
-	.page .tab:after {content:"";display:block;position:absolute;z-index:1;right:0px;bottom:0;height:45px;border-left:1px solid #d6d6d6}
+	.page .tab {position:relative;border:1px solid #ccc} 
 	
-	.page .tab li {position:relative;width:50%;margin-left:0px;z-index:2}  
-	.page .tab li a {position:relative;height:40px;padding:0;border-bottom:1px solid #d6d6d6;border-width:0 1px 1px 0;font-size:14px;letter-spacing:-1px}  
+	.page .tab li {position:relative;width:50%;z-index:2}  
+	.page .tab li a {position:relative;margin:0 !important;padding:0;border:0;font-size:14px;letter-spacing:-1px}  
 
-	.page .tab li.on a:before, 
-	.page .tab li a:hover:before {content:"";display:block;position:absolute;left:-1px;top:-1px;height:45px;border-left:1px solid #d6d6d6} 
+	.page .tab li:nth-of-type(1) a,
+	.page .tab li:nth-of-type(2) a,
+	.page .tab li:nth-of-type(3) a,
+	.page .tab li:nth-of-type(4) a {border-bottom:1px solid #d6d6d6}
 
-	.page .tab li:nth-of-type(1) a:before, 
-	.page .tab li:nth-of-type(3) a:before, 
-	.page .tab li:nth-of-type(5) a:before {content:"";display:block;position:absolute;left:0px;top:0px;height:45px;border-left:1px solid #d6d6d6}
+	.page .tab li.on a, 
+	.tab li a:hover {border-width:0 0 1px 0}
+
+	.page .tab li a:before {content:"";display:block;position:absolute;height:45px}
+
+	.page .tab li:nth-of-type(1) a:before,
+	.page .tab li:nth-of-type(3) a:before,
+	.page .tab li:nth-of-type(5) a:before {top:0;right:0;border-right:1px solid #d6d6d6}
 
 	.bbs_basic .post_item .thum {width:100%;font-size:12px;color:#7f7f7f}
 	.bbs_basic .post_item .cont {width:100%}
