@@ -18,7 +18,7 @@ SUMMARY :
 
 /* button */
 
-.btn_cen {padding:20px 0 40px;text-align:center}
+.btn_cen {padding:30px 0 40px;text-align:center}
 .btn_cen button {width:70px;height:32px;margin:0 3px;border:1px solid #5b5b5b;background-color:#686868;font-size:14px;color:#fff;line-height:1.0}
 .btn_cen button.green {border:1px solid #71af42;background-color:#71af42}
 
@@ -233,20 +233,23 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 /* 1:1 inquiry */
 
 .boardForm {position:relative;padding:50px 0 0}
-.boardForm .writeTable {table-layout:fixed;width:100%;border-top:2px solid #71af42;border-bottom:2px solid #ccc}
-.boardForm .writeTable tr th {border:1px solid #ccc;border-width:0 1px 1px 0;background-color:#fbfbfb;font-size:14px;font-weight:700;color:#333;text-align:center;line-height:20px}
+.boardForm .writeTable {border-top:2px solid #71af42;border-bottom:2px solid #ccc}
+.boardForm .writeTable tr th {border:1px solid #ccc;border-width:0 1px 1px 0;background-color:#fbfbfb;font-size:14px;font-weight:700;color:#333;text-align:center;vertical-align:middle}
 .boardForm .writeTable tr td {padding:10px;border:1px solid #ccc;border-width:0 0 1px 0}
-.boardForm .writeTable tr td span.pass {display:inline-block;padding:0 2px}
+
+.boardForm .writeTable tr td span.tit {height:38px;line-height:38px}
+.boardForm .writeTable tr td span.pass {padding:0 5px}
 
 .boardForm .writeTable tr td input[type="text"] {height:38px;padding:0px 5px;border:1px solid #ddd}
-.boardForm .writeTable tr td input[type='checkbox'] {margin:0 5px 0 0}
-.boardForm .writeTable tr td .select {display:inline-block;width:30%;height:38px;padding:0 6px;border:1px solid #ddd;background-color:#fff;font-size:15px;vertical-align:middle}
-.boardForm .writeTable tr td .select2 {display:inline-block;width:auto;height:38px;padding:0 6px;border:1px solid #ddd;background-color:#fff;font-size:15px;vertical-align:middle}
+.boardForm .writeTable tr td input[type='checkbox'] {position:relative;top:3px;margin:0 5px 0 0}
+
+.boardForm .writeTable tr td .sel {display:inline-block;width:8%;height:38px;padding:0 6px;border:1px solid #ddd;background-color:#fff;font-size:15px;vertical-align:middle}
+.boardForm .writeTable tr td .sel.sel2 {width:30%}
+.boardForm .writeTable tr td .sel.w100 {width:100%}
 
 .boardForm .writeTable tr td textarea {height:150px;padding:10px 10px;border:1px solid #ccc}
 
-.ico_{display:inline-block;vertical-align:middle;text-indent:-10000px;background-repeat:no-repeat;background-position:center center;background-size:auto 100%;-webkit-background-size:100% auto;background-size:100% auto}
-.ico_.date {width:24px;height:24px;margin:0 0 0 10px;background-image:url(../img/local/ico_date.png)}
+.ico.date {width:24px;height:24px;margin:0 0 0 10px;background-image:url(../img/local/ico_date.png)}
 
 .division {display:inline-block;width:30%}
 .division.end {margin:0 0 0 10px}
@@ -256,7 +259,7 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 .agree ul li {position:relative;padding:0 0 0 7px}
 .agree ul li:before {content:'';display:inline-block;position:absolute;top:8px;left:0;width:2px;height:2px;background-color:#666}
 
-.agree ul li:last-child {padding:0}
+.agree ul li:last-child {padding:5px 0 0 0}
 .agree ul li:last-child:before {display:none}
 
 .colw_reaction {width:140px}
@@ -375,7 +378,7 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 	.boardForm .writeTable tr td input[type="text"] {width:100%}
 	.boardForm .writeTable tr td .ship {width:70% !important}
 
-	.boardForm .writeTable tr td .select {width:100%}
+	.boardForm .writeTable tr td .sel {width:100%}
 
 	.colw_reaction {width:100px}
 

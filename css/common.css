@@ -74,7 +74,7 @@ body {font-family:'Nanum Gothic','맑은 고딕','Malgun Gothic','돋움','Dotum
 
 #gnb > .box > ul:after {display:block;clear:both;content:''}
 #gnb > .box > ul > li {position:relative;float:left}
-#gnb > .box > ul > li > a {display:block;padding:10px 37px;font-size:19px;font-weight:500;color:#000;cursor:pointer}
+#gnb > .box > ul > li > a {display:block;padding:10px 37px;font-size:19px;font-weight:400;color:#000;cursor:pointer}
 #gnb > .box > ul > li.current > a,
 #gnb > .box > ul > li > a:hover,
 #gnb > .box > ul > li > a:focus {color:#ec6835}

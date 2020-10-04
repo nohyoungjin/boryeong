@@ -61,26 +61,26 @@ SUMMARY :
 
 .box_01 {width:560px;height:340px;margin:0 10px 0 0;background:url(../img/main/yeong.png) 0 0 repeat}
 .box_01 strong {position:absolute;left:30px;top:30px;font-size:20px;font-weight:700}
-.box_01 p {position:absolute;left:30px;top:90px;font-size:26px;font-weight:400;line-height:32px;letter-spacing:-1.5px}
-.box_01 p em {font-weight:700;color:#71af42}
-.box_01 p.tel_txt {left:65px;top:280px;font-size:16px;font-weight:900;color:#666;line-height:32px;letter-spacing:-0.5px}
+.box_01 p {position:absolute;left:30px;top:90px;z-index:100;font-size:20px;font-weight:400;line-height:29px;letter-spacing:-0.7px}
+.box_01 p em {color:#71af42}
+.box_01 p.tel_txt {left:65px;top:278px;font-size:16px;font-weight:900;color:#666;letter-spacing:-0.5px}
 
-.box_01 .fruit {position:absolute;top:0px;left:48%}
-.box_01 .ico.ico_fruit {width:148px;height:85px;background-position:0 -30px;text-indent:-9999px}
+.box_01 .fruit {position:absolute;top:0;left:48%}
+.box_01 .fruit i {width:148px;height:85px;background-position:0 -30px}
 
 .box_01 .bowl {position:absolute;bottom:0;right:0}
-.box_01 .ico.ico_bowl {width:301px;height:294px;background-position:-160px -30px;text-indent:-9999px}
+.box_01 .bowl i {width:301px;height:294px;background-position:-160px -30px}
 
 .box_01 .tel {position:absolute;bottom:35px;left:30px}
-.box_01 .ico.ico_tel {width:26px;height:20px;background-position:-90px 0;text-indent:-9999px}
+.box_01 .tel i {width:26px;height:20px;background-position:-90px 0}
 
 .box_02 {width:275px;height:340px;margin:0 10px 0 0;line-height:normal}
-.box_02 strong {display:block;margin:30px;padding:8px 0 15px;border-bottom:1px solid #e0e0e0;font-size:20px;font-weight:normal}
+.box_02 div.tab {display:block;margin:30px;padding:8px 0 15px;border-bottom:1px solid #e0e0e0;font-size:20px}
 
-.box_02 strong a + a {position:relative;margin:0 0 0 20px}
-.box_02 strong a.active {font-weight:700}
-.box_02 strong a:before {content:'';display:block;position:absolute;top:4px;left:0;width:1px;height:15px;margin:0 0 0 -10px;background-color:#999}
-.box_02 strong a:first-child:before {display:none}
+.box_02 div.tab a + a {position:relative;margin:0 0 0 20px}
+.box_02 div.tab a.active {font-weight:700}
+.box_02 div.tab a:before {content:'';display:block;position:absolute;top:4px;left:0;width:1px;height:15px;margin:0 0 0 -10px;background-color:#999}
+.box_02 div.tab a:first-child:before {display:none}
 
 .box_02 ul {margin:30px}
 .box_02 ul.no_02_cont {display:none}
@@ -105,7 +105,7 @@ SUMMARY :
 .box_04 p {position:absolute;left:30px;top:85px;font-size:26px;font-weight:normal;line-height:32px;letter-spacing:-1.5px}
 .box_04 p {left:65px;top:70px;font-size:14px;color:#666;line-height:19px}
 
-.box_04 .flower {position:absolute;bottom:35px;left:30px}
+.box_04 .flower {position:absolute;bottom:33px;left:30px}
 .box_04 .ico.ico_flower {width:24px;height:32px;background-position:0 -350px;text-indent:-9999px}
 
 .box_05 {margin:10px 10px 0 0}
