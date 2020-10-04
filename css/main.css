@@ -77,9 +77,10 @@ SUMMARY :
 .box_02 {width:275px;height:340px;margin:0 10px 0 0;line-height:normal}
 .box_02 div.tab {display:block;margin:30px;padding:8px 0 15px;border-bottom:1px solid #e0e0e0;font-size:20px}
 
-.box_02 div.tab a + a {position:relative;margin:0 0 0 20px}
+.box_02 div.tab a {position:relative;padding:0 6px 0 0}
+.box_02 div.tab a + a {padding:0 0 0 12px}
 .box_02 div.tab a.active {font-weight:700}
-.box_02 div.tab a:before {content:'';display:block;position:absolute;top:4px;left:0;width:1px;height:15px;margin:0 0 0 -10px;background-color:#999}
+.box_02 div.tab a:before {content:'';display:block;position:absolute;top:4px;left:0;width:1px;height:15px;background-color:#999}
 .box_02 div.tab a:first-child:before {display:none}
 
 .box_02 ul {margin:30px}
