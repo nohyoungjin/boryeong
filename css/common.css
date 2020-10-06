@@ -143,7 +143,7 @@ body {font-family:'Nanum Gothic','맑은 고딕','Malgun Gothic','돋움','Dotum
 #btn_top.show {opacity:1}
 #btn_top .inner {position:relative;width:1200px;margin:0 auto}
 #btn_top .inner a {display:block;position:absolute;bottom:174px;right:-65px;width:50px;height:45px;border:1px solid #dbdbdb;background:#fff url(../img/common/btn_top.png) center center no-repeat}
-#btn_top span {display:block;text-indent:-9999px}
+#btn_top span {display:block}
 
 /* media query */
 
@@ -173,7 +173,7 @@ body {font-family:'Nanum Gothic','맑은 고딕','Malgun Gothic','돋움','Dotum
 	#gnb > .box > ul {width:100%;padding-top:75px}
 	#gnb > .box > ul > li {float:none;width:100%;height:auto;background:#fff;border-bottom:1px solid #ebebeb}
 	#gnb > .box > ul > li:first-child {border-top:1px solid #d7d7d7}
-	#gnb > .box > ul > li > a {padding:15px 24px;background:url(../img/common/bu_down.png) no-repeat 96% 48%;-webkit-background-size:16px;background-size:16px;font-weight:400;color:#111}
+	#gnb > .box > ul > li > a {padding:15px 24px;background:url(../img/common/bu_down.png) no-repeat 96% 48%;-webkit-background-size:16px;background-size:16px;font-size:16px}
 
 	#gnb > .box > ul > li.current > a {background:url(../img/common/bu_up.png) no-repeat 96% 48%;-webkit-background-size:16px;background-size:16px;color:#71af42}
 	#gnb > .box > ul > li > a:hover,
@@ -188,9 +188,9 @@ body {font-family:'Nanum Gothic','맑은 고딕','Malgun Gothic','돋움','Dotum
 	#gnb > .box > ul > li > .sub_menu > ul {display:none;float:none;margin-left:0px}
 	#gnb > .box > ul > li > .sub_menu > ul > li {float:none;width:auto;margin:0px;border-top:1px solid #e3e6eb}
 	#gnb > .box > ul > li > .sub_menu > ul > li:first-child {margin-left:0}
-	#gnb > .box > ul > li > .sub_menu > ul > li > a {display:block;padding:0 14px 0 35px;height:44px;border-bottom:none;background:#f5f5f5;color:#666;line-height:44px}
+	#gnb > .box > ul > li > .sub_menu > ul > li > a {display:block;padding:0 14px 0 35px;height:44px;border-bottom:none;background:#f5f5f5;font-size:14px;color:#666;line-height:44px}
 	#gnb > .box > ul > li > .sub_menu > ul > li > a:hover,
-	#gnb > .box > ul > li > .sub_menu > ul > li > a:focus {background:#59ab71;color:#fff}
+	#gnb > .box > ul > li > .sub_menu > ul > li > a:focus {background:#59ab71;color:#fff;text-decoration:none}
 
 	#header .bgDepth {display:none}
 

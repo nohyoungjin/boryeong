@@ -48,7 +48,7 @@ SUMMARY :
 .conts .inner {position:relative;margin:40px 0 0 40px}
 
 .spot {position:relative;margin:0 0 20px}
-.spot h2 {height:60px;font-size:40px;font-weight:700;line-height:60px;color:#000}
+.spot h2 {font-size:40px;font-weight:700;color:#000}
 
 /* path */
 
@@ -68,7 +68,7 @@ SUMMARY :
 
 /* 인사말 */
 
-.cont_greeting p {padding:0 20px 20px 30px;font-size:14px;color:#4d4d4d;text-align:left;line-height:30px}
+.cont_greeting p {padding:0 20px 20px 30px;font-size:14px;color:#4d4d4d;text-align:left;line-height:27px}
 
 /* 만세보령농식품직판장 소개 */
 
@@ -384,7 +384,9 @@ SUMMARY :
 	
 	.conts {float:none;width:100%;border-left:0}
 	.conts .inner {margin:30px 10px 50px}
-	.spot {margin:0 0 50px}
+	
+	.spot {margin:0 0 40px}
+	.spot h2 {font-size:30px}
 
 	/* path */
 
