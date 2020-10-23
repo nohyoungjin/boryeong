@@ -43,9 +43,7 @@ SUMMARY :
 .snb .snb-banner ul {padding-top:10px}
 .snb .snb-banner ul li {margin:10px 0 0}
 
-/* conts */
-
-.conts .inner {position:relative;margin:40px 0 0 40px}
+/* spot */
 
 .spot {position:relative;margin:0 0 20px}
 .spot h2 {font-size:40px;font-weight:700;color:#000}
@@ -64,7 +62,7 @@ SUMMARY :
 
 /* h3 */
 
-.conts .inner h3 {padding:0 0 30px;border-bottom:2px solid #d9d9d9;font-size:46px}
+.conts h3 {padding:0 0 30px;border-bottom:2px solid #d9d9d9;font-size:46px}
 
 /* 인사말 */
 
@@ -87,18 +85,18 @@ SUMMARY :
 .intro_box {position:relative;height:280px;margin:80px auto}
 .intro_box:after {content:"";display:block;clear:both}
 
-.intro_box ._left, 
-.intro_box ._right {display:table;width:320px;height:100%}
+.intro_box .box_left, 
+.intro_box .box_right {display:table;width:320px;height:100%}
 
-.intro_box ._left {float:left;background-color:#eaf3f8}
-.intro_box ._right {float:right;background-color:#e9f5f2}
+.intro_box .box_left {float:left;background-color:#eaf3f8}
+.intro_box .box_right {float:right;background-color:#e9f5f2}
 
-.intro_box ._left > div,
-.intro_box ._right > div {display:table-cell}
+.intro_box .box_left > div,
+.intro_box .box_right > div {display:table-cell}
 
 .intro_box div {font-size:18px;color:#5da3ca;text-align:center;vertical-align:middle;line-height:24px}
 .intro_box div strong {display:inline-block;position:relative;height:60px;padding:0 0 10px;font-size:22px;font-weight:700}
-.intro_box ._right div strong {color:#77beac}
+.intro_box .box_right div strong {color:#77beac}
 
 .intro_box .ico.ico_producer {position:relative;left:-10px;top:-3px;width:60px;height:60px;background-position:0 -400px}
 .intro_box .ico.ico_consumer {position:relative;left:-10px;top:-3px;width:60px;height:60px;background-position:-65px -400px}
@@ -106,23 +104,23 @@ SUMMARY :
 .intro_box div ul {margin:10px 0 0}
 .intro_box div ul li {padding:0 0 0 60px;font-size:14px;text-align:left;color:#666}
 
-.intro_box ._center {position:absolute;left:0;right:0;top:0;bottom:0;width:235px;height:164px;margin:auto;background:url(../img/crops/ico_circle.png)}
-.intro_box ._center span {position:absolute;left:0;right:0;top:48px;bottom:0;font-size:15px;color:#fff}
+.intro_box .box_center {position:absolute;left:0;right:0;top:0;bottom:0;width:235px;height:164px;margin:auto;background:url(../img/crops/ico_circle.png)}
+.intro_box .box_center span {position:absolute;left:0;right:0;top:48px;bottom:0;font-size:15px;color:#fff}
 
 /* */
 
 .intro_box.ver02 {height:320px;margin:20px auto 80px}
 
-.intro_box.ver02 ._left {height:100%;margin:0 0 0 5%;background-color:#e9f5f2;border-radius:50%}
-.intro_box.ver02 ._right {height:100%;margin:0 5% 0 0;background-color:#eaf3f8;border-radius:50%}
+.intro_box.ver02 .box_left {height:100%;margin:0 0 0 5%;background-color:#e9f5f2;border-radius:50%}
+.intro_box.ver02 .box_right {height:100%;margin:0 5% 0 0;background-color:#eaf3f8;border-radius:50%}
 
 .intro_box.ver02 p {font-size:14px;color:#666}
 .intro_box.ver02 p strong {display:block;height:55px;margin:20px 0 0;font-size:32px;font-weight:700;color:#9ac3b9}
 
-.intro_box.ver02 ._right p strong {color:#5da3ca}
+.intro_box.ver02 .box_right p strong {color:#5da3ca}
 .intro_box.ver02 p strong span {position:relative;top:4px;padding:0 16px;font-size:48px;font-weight:700}
 
-.intro_box.ver02 ._center {position:absolute;left:0;right:0;top:0;bottom:0;width:81px;height:81px;margin:auto;background:url(../img/crops/ico_cross.png)}
+.intro_box.ver02 .box_center {position:absolute;left:0;right:0;top:0;bottom:0;width:81px;height:81px;margin:auto;background:url(../img/crops/ico_cross.png)}
 
 /* */
 
@@ -382,20 +380,19 @@ SUMMARY :
 	
 	/* conts */
 	
-	.conts {float:none;width:100%;border-left:0}
-	.conts .inner {margin:30px 10px 50px}
+	.conts {float:none;width:100%;padding:30px 10px 50px;border-left:0}
 	
 	.spot {margin:0 0 40px}
 	.spot h2 {font-size:30px}
 
 	/* path */
 
-	.path {top:70px}
+	.path {top:50px}
 	.pam {top:95px}
 
 	/* h3 */
 
-	.conts .inner h3:before {display:none}
+	.conts h3:before {display:none}
 
 	/* 인사말 */
 	
@@ -481,19 +478,19 @@ SUMMARY :
 
 	.intro_box {height:inherit}
 
-	.intro_box ._left, 
-	.intro_box ._right {float:none;height:280px;margin:0 auto}
+	.intro_box .box_left, 
+	.intro_box .box_right {float:none;height:280px;margin:0 auto}
 
-	.intro_box ._center {position:static;width:100%;height:258px;margin:30px 0;background:url(../img/crops/ico_circle_rotate.png) no-repeat center center}
-	.intro_box ._center span {top:405px}
+	.intro_box .box_center {position:static;width:100%;height:258px;margin:30px 0;background:url(../img/crops/ico_circle_rotate.png) no-repeat center center}
+	.intro_box .box_center span {top:405px}
 
 	.intro_box.ver02 {height:inherit;margin:100px auto 80px}
 
-	.intro_box.ver02 ._left, 
-	.intro_box.ver02 ._right {float:none;height:320px;margin:0 auto}
+	.intro_box.ver02 .box_left, 
+	.intro_box.ver02 .box_right {float:none;height:320px;margin:0 auto}
 
-	.intro_box.ver02 ._center {position:static;width:100%;height:110px;margin:30px 0;background:url(../img/crops/ico_cross.png) no-repeat center center}
-	.intro_box.ver02 ._center span {top:402px}
+	.intro_box.ver02 .box_center {position:static;width:100%;height:110px;margin:30px 0;background:url(../img/crops/ico_cross.png) no-repeat center center}
+	.intro_box.ver02 .box_center span {top:402px}
 
 	.cont_crops .both {height:inherit;margin:180px 0 50px}
 

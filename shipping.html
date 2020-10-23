@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
 	<meta name="viewport" content="width=device-width">
 	<link rel="shortcut icon" href="path/favicon.ico">
 	<title>만세보령농식품직판장</title>
@@ -61,93 +61,91 @@
 				<!-- //snb -->
 
 				<div id="content" class="conts">
-					<div class="inner">
 
-						<div class="spot">
-							<h2 class="tit_txt">신청하기</h2>
-							<ul class="path">
-								<li><i class="ico ico_home">홈</i><a href="#">홈</a></li>
-								<li><a href="#">특산품 안내</a></li>
-								<li>신청하기</li>
-							</ul>
+					<div class="spot">
+						<h2 class="head_tit">신청하기</h2>
+						<ul class="path">
+							<li><i class="ico ico_home">홈</i><a href="#">홈</a></li>
+							<li><a href="#">특산품 안내</a></li>
+							<li>신청하기</li>
+						</ul>
+					</div>
+
+					<!-- boardForm -->
+
+					<div class="boardForm">
+
+						<form name="boardWriteForm" method="post">
+
+						<table class="writeTable">
+							<caption>신청하기(상품명, 배송희망일, 배송지주소, 이름, 핸드폰 번호, 개수, 비고, 개인정보 수집/이용에 대한 동의로 구성)</caption>
+							<colgroup>
+								<col class="colw_reaction">
+								<col>
+							</colgroup>
+							<tbody>
+								<tr>
+									<th scope="row">상품명</th>
+									<td><span class="tit">삼겹살 꾸러미 4인분</span></td>
+								</tr>
+								<tr>
+									<th scope="row">배송희망일</th>
+									<td><input type="text" id="" title="배송희망일" class="w30 ship"><i class="ico date"><span class="blind">날짜 검색</span></i></td>
+								</tr>
+								<tr>
+									<th scope="row">배송지주소</th>
+									<td><input type="text" id="" title="배송지주소" class="w100"></td>
+								</tr>
+								<tr>
+									<th scope="row">이름</th>
+									<td><input type="text" id="" title="이름" class="w30"></td>
+								</tr>
+								<tr>
+									<th scope="row">핸드폰 번호</th>
+									<td><input type="text" id="" title="핸드폰 번호" class="w100"></td>
+								</tr>
+								<tr>
+									<th scope="row">개수</th>
+									<td>
+										<select id="" class="sel" title="개수">
+											<option value="" selected="selected">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+										</select>
+									</td>
+								</tr>
+								<tr class="contentTr">
+									<th scope="row">비고</th>
+									<td>
+										<textarea id="" title="내용" class="w100 h100"></textarea>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">개인정보<br>수집/이용에<br>대한 동의</th>
+									<td class="agree">
+										<div><input type="checkbox" name="" id="accept"><label for="accept">동의합니다.</label></div>
+										<ul>
+											<li>수집 항목 : 이름, 이메일</li>
+											<li>수집 목적 : 서비스 이용에 따른 고객문의, 불만처리, 오류해결 등 민원 처리 및 결과 확인</li>
+											<li>보유 및 이용 기간 : 문의 처리 후 5년간 보관</li>
+											<li>※ 그 밖의 사항은 개인정보 처리방침을 준수합니다.</li>
+										</ul>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="btn_cen">
+							<button type="submit" name="" class="green" title="신청" value="신청">신청</button>
+							<button type="submit" name="" title="취소" value="취소">취소</button>
 						</div>
 
-						<!-- boardForm -->
-
-						<div class="boardForm">
-
-							<form name="boardWriteForm" method="post">
-
-							<table class="writeTable">
-								<caption>신청하기(상품명, 배송희망일, 배송지주소, 이름, 핸드폰 번호, 개수, 비고, 개인정보 수집/이용에 대한 동의로 구성)</caption>
-								<colgroup>
-									<col class="colw_reaction">
-									<col>
-								</colgroup>
-								<tbody>
-									<tr>
-										<th scope="row">상품명</th>
-										<td><span class="tit">삼겹살 꾸러미 4인분</span></td>
-									</tr>
-									<tr>
-										<th scope="row">배송희망일</th>
-										<td><input type="text" id="" title="배송희망일" class="w30 ship"><i class="ico date"><span class="blind">날짜 검색</span></i></td>
-									</tr>
-									<tr>
-										<th scope="row">배송지주소</th>
-										<td><input type="text" id="" title="배송지주소" class="w100"></td>
-									</tr>
-									<tr>
-										<th scope="row">이름</th>
-										<td><input type="text" id="" title="이름" class="w30"></td>
-									</tr>
-									<tr>
-										<th scope="row">핸드폰 번호</th>
-										<td><input type="text" id="" title="핸드폰 번호" class="w100"></td>
-									</tr>
-									<tr>
-										<th scope="row">개수</th>
-										<td>
-											<select id="" class="sel" title="개수">
-												<option value="" selected="selected">1</option>
-												<option value="">2</option>
-												<option value="">3</option>
-											</select>
-										</td>
-									</tr>
-									<tr class="contentTr">
-										<th scope="row">비고</th>
-										<td>
-											<textarea id="" title="내용" class="w100 h100"></textarea>
-										</td>
-									</tr>
-									<tr>
-										<th scope="row">개인정보<br>수집/이용에<br>대한 동의</th>
-										<td class="agree">
-											<div><input type="checkbox" name="" id="accept"><label for="accept">동의합니다.</label></div>
-											<ul>
-												<li>수집 항목 : 이름, 이메일</li>
-												<li>수집 목적 : 서비스 이용에 따른 고객문의, 불만처리, 오류해결 등 민원 처리 및 결과 확인</li>
-												<li>보유 및 이용 기간 : 문의 처리 후 5년간 보관</li>
-												<li>※ 그 밖의 사항은 개인정보 처리방침을 준수합니다.</li>
-											</ul>
-										</td>
-									</tr>
-								</tbody>
-							</table>
-
-							<div class="btn_cen">
-								<button type="submit" name="" class="green" title="신청" value="신청">신청</button>
-								<button type="submit" name="" title="취소" value="취소">취소</button>
-							</div>
-
-							</form>
-
-						</div>
-
-						<!-- //boardForm -->
+						</form>
 
 					</div>
+
+					<!-- //boardForm -->
+
 				</div>
 
 			</div>

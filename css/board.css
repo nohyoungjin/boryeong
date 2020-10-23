@@ -180,7 +180,7 @@ div.capty-caption {width:294px;margin:0 auto;padding-top:15px;background-color:#
 
 /* board view */
 
-.bbs_view {overflow:hidden;position:relative;margin:60px 0 0;border-top:2px solid #71af42}
+.bbs_view {overflow:hidden;position:relative;margin:30px 0 0;border-top:2px solid #71af42}
 .bbs_view > ul {overflow:hidden}
 .bbs_view > ul > li {float:left;border-bottom:1px solid #ddd;font-size:14px}
 .bbs_view > ul > li > strong {position:relative;float:left;min-height:24px;padding:16px 0;border-right:1px solid #ddd;background-color:#fbfbfb;color:#333;text-align:center;line-height:24px}
