@@ -39,14 +39,10 @@ SUMMARY :
 .snb .snb_list .snb_nav li ul li {border-bottom:none}
 .snb .snb_list .snb_nav li ul li a {width:100%;height:30px;padding:0 0 0 20px;font-size:14px;text-align:left;line-height:30px}
 
-.snb .snb-banner {width:188px;margin:0 auto}
-.snb .snb-banner ul {padding-top:10px}
-.snb .snb-banner ul li {margin:10px 0 0}
-
 /* spot */
 
 .spot {position:relative;margin:0 0 20px}
-.spot h2 {font-size:40px;font-weight:700;color:#000}
+.spot h2.head_tit {font-size:40px;font-weight:700}
 
 /* path */
 
@@ -60,13 +56,14 @@ SUMMARY :
 
 .ico.ico_home {position:absolute;top:-1px;left:-20px;width:15px;height:14px;background-position:-140px 0;text-indent:-9999px}
 
-/* h3 */
+/* conts */
 
 .conts h3 {padding:0 0 30px;border-bottom:2px solid #d9d9d9;font-size:46px}
+.conts img {max-width:100%}
 
 /* 인사말 */
 
-.cont_greeting p {padding:0 20px 20px 30px;font-size:14px;color:#4d4d4d;text-align:left;line-height:27px}
+.cont_greeting p {padding:0 20px 20px 30px;font-size:15px;color:#4d4d4d;line-height:26px}
 
 /* 만세보령농식품직판장 소개 */
 
@@ -109,7 +106,7 @@ SUMMARY :
 
 /* */
 
-.intro_box.ver02 {height:320px;margin:20px auto 80px}
+.intro_box.ver02 {height:320px;margin:50px auto 80px}
 
 .intro_box.ver02 .box_left {height:100%;margin:0 0 0 5%;background-color:#e9f5f2;border-radius:50%}
 .intro_box.ver02 .box_right {height:100%;margin:0 5% 0 0;background-color:#eaf3f8;border-radius:50%}
@@ -171,9 +168,11 @@ SUMMARY :
 
 .cont_map ul {margin:10px 0 10px}
 .cont_map .store ul li,
-.cont_map .car ul li {position:relative;padding:0 0 5px 30px;font-size:14px;color:#666}
-.cont_map .car ul li:before {content: "";display:block;position:absolute;width:11px;height:13px;top:4px;left:10px;background:url(../img/crops/o_bus.png) 0 0 no-repeat;vertical-align:middle}
-.cont_map .car ul li.g_bus:before {content: "";display:block;position:absolute;width:11px;height:13px;top:4px;left:10px;background:url(../img/crops/g_bus.png) 0 0 no-repeat;vertical-align:middle}
+.cont_map .car ul li {position:relative;padding:0 0 5px 30px;font-size:15px;color:#666}
+
+.cont_map .car ul li:before {content: "";display:block;position:absolute;width:11px;height:13px;top:5px;left:10px;background:url(../img/crops/o_bus.png) 0 0 no-repeat;vertical-align:middle}
+.cont_map .car ul li.g_bus:before {content: "";display:block;position:absolute;width:11px;height:13px;top:5px;left:10px;background:url(../img/crops/g_bus.png) 0 0 no-repeat;vertical-align:middle}
+
 .cont_map ul li.blank:before {display:none}
 
 /* 주요사업 */
@@ -184,10 +183,10 @@ SUMMARY :
 .cont_majorbiz .both .fr {float:right;width:45.85%}
 
 .cont_majorbiz p.title {padding:70px 0 20px}
-.cont_majorbiz p.title2 {padding:0 9px 0}
+.cont_majorbiz p.title2 {padding:0 9px}
 .cont_majorbiz p.title3 {padding:10px 9px 0}
 
-.cont_majorbiz p {font-size:14px;color:#666;line-height:26px;letter-spacing:-0.5px}
+.cont_majorbiz p {font-size:15px;color:#666;line-height:26px;letter-spacing:-0.5px}
 
 .thum_listbx {overflow:hidden}
 .thum_listbx strong {display:block;padding:30px 0 25px;font-size:24px;font-weight:700;color:#71af42;text-align:center}
@@ -333,7 +332,6 @@ SUMMARY :
 
 /* 개인정보취급방침 */
 
-.cont_privacy {padding:0 0 20px 0}
 .cont_privacy p {margin:10px 0 25px;padding:20px;border:1px solid #ccc;font-size:17px;color:#4d4d4d;text-align:left;line-height:30px}
 
 .cont_privacy .cont_s {padding:6px 0}
@@ -383,12 +381,12 @@ SUMMARY :
 	.conts {float:none;width:100%;padding:30px 10px 50px;border-left:0}
 	
 	.spot {margin:0 0 40px}
-	.spot h2 {font-size:30px}
+	.spot h2.head_tit {font-size:30px}
 
 	/* path */
 
 	.path {top:50px}
-	.pam {top:95px}
+	.pam {top:80px}
 
 	/* h3 */
 
@@ -437,10 +435,6 @@ SUMMARY :
 }
 
 @media (max-width: 1000px) {
-
-	/* */
-
-	.responsive_image {width:100%;height:auto} 
 
 	/* 주요사업 */
 	

@@ -40,7 +40,7 @@ SUMMARY :
 .bod_head .search .cell:last-child {width:67px;padding-right:0}
 
 .bod_head select {width:100% !important;height:36px}
-.bod_head input {width:100%;height:36px;padding:0 5px;font-size:11pt;color:#000}
+.bod_head input {width:100%;height:36px;padding:0 5px;font-size:10pt}
 
 .btn {display:inline-block;padding:0 20px;border:1px solid #434241;background-color:#434241;color:#fff;white-space:nowrap;cursor:pointer}
 .btn_medium {width:auto;height:36px;font-size:11pt;line-height:36px}
