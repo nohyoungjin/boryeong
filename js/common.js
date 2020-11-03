@@ -172,20 +172,41 @@ $(function() {
 			slidesToScroll: 1
 		});
 
-		// 정지, 재생
+		// visual pause, play (pc)
 
-		/* $('.btn_family').on('click', function() {
+		$('.visual_btn .btn_play').on('click', function() {
+
 			var $pauseBtn = $(this);
+
 			if ($pauseBtn.hasClass('on')) {
-				$('.g_family').slick('slickPlay');
+				$('.visual.web').slick('slickPlay');
 				$(this).text('정지');
 				$pauseBtn.removeClass('on');
 			} else {
-				$('.g_family').slick('slickPause');
+				$('.visual.web').slick('slickPause');
 				$(this).text('재생');
 				$pauseBtn.addClass('on');
 			}
-		}); */
+
+		});
+
+		// visual pause, play (mobile)
+
+		$('.visual_btn_mo .btn_play').on('click', function() {
+
+			var $pauseBtn = $(this);
+
+			if ($pauseBtn.hasClass('on')) {
+				$('.visual.mobile').slick('slickPlay');
+				$(this).text('정지');
+				$pauseBtn.removeClass('on');
+			} else {
+				$('.visual.mobile').slick('slickPause');
+				$(this).text('재생');
+				$pauseBtn.addClass('on');
+			}
+
+		});
 
 	}
 
